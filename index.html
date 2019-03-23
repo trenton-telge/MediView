@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="MediView">
+    <meta name="apple-mobile-web-app-title" content="MediView">
+    <meta name="theme-color" content="#222222">
+    <meta name="msapplication-navbutton-color" content="#222222">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MediView</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/svg" href="/icon.svg">
+    <link rel="apple-touch-icon" type="image/svg" href="/icon.svg">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="master.css">
+    <script type="text/javascript" src="cornerstone.min.js"></script>
+    <script type="text/javascript" src="upup.min.js"></script>
+    <script type="text/javascript">
+        UpUp.start({
+            'content-url': '/index.html',
+            'assets': [
+                '/cornerstone.min.js',
+                'index.html',
+                'master.css',
+                'android-chrome-512x512.png',
+                'android-chrome-192x192.png',
+                'icon.svg'
+            ],
+            'scope': '/'
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#">Open</a>
+        <a href="#">Export JPG</a>
+        <a href="#">Export PNG</a>
+    </header>
+    <div id="main-wrapper">
+        <div id="left">
+
+        </div>
+        <div id="right">
+
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
