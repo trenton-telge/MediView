@@ -5,6 +5,7 @@
   "start_url": "/MediView/",
   "display": "standalone",
   "theme_color": "#222222",
+  "background_color": "#222222",
   "icons": [
     {
       "src": "./android-chrome-192x192.png",
