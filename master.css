@@ -39,4 +39,19 @@ header a:hover {
 }
 #right{
     height: calc(100vh - 30px);
+    width: calc(100vw - 200px);
+}
+.modal {
+    z-index: 200;
+    display: none;
+    width:80vw;
+    max-width:400px;
+    height:60vh;
+    max-height:400px;
+    margin: auto;
+    border: 2px solid black;
+}
+#dicom, #papayaContainer0 {
+    width: 100%;
+    height:100%;
 }
