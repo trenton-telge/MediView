@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./lib/papaya.css?build=1449">
     <link rel="stylesheet" type="text/css" href="./master.css">
-    <script type="text/javascript" src="./lib/papaya.js?build=1449"></script>
+    <script type="text/javascript" src="./lib/papaya.js"></script>
     <script type="text/javascript" src="./upup.min.js"></script>
     <script type="text/javascript" src="./mediview.js"></script>
     <script type="text/javascript">
@@ -46,25 +46,13 @@
             ],
             'scope': '/MediView/'
         });
-        //Papaya Params
         var params = [];
-        params["kioskMode"] = true;
-        params["fullScreenPadding"] = false;
+        params["worldSpace"] = true;
     </script>
 </head>
 <body>
-    <header>
-        <a href="#" onclick="displayModal('ul');">Open</a>
-        <a href="#">Export JPG</a>
-        <a href="#">Export PNG</a>
-    </header>
     <div id="main-wrapper">
-        <div id="left">
-
-        </div>
-        <div id="right">
             <div class="papaya" data-params="params"></div>
-        </div>
     </div>
     <div class="modal" id="modal-ul">
         <h3>Open</h3>

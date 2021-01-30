@@ -1,5 +1,4 @@
 let ul = false;
-papaya.Container.startPapaya();
 function displayModal(type){
     if (type === 'ul') {
         if (!ul){
@@ -10,9 +9,4 @@ function displayModal(type){
         ul = !ul;
     } else {
     }
-}
-
-function openDICOM(){
-    papaya.Container.addImage(0, document.getElementsByName('dicom').values()[0]);
-    //papaya.Container.showImage(0,1);
 }
